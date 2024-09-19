@@ -1,16 +1,19 @@
 # Hexapod_Forward_Kinematics
 
-Forward Kinematics of the Stewart Platform (Hexapod)
+# Forward Kinematics of the Stewart Platform (Hexapod)
+
 Input:
 
-  6 Leg lengths  in mm (leg_lengths) 1x6 Matrix
+    6 Leg lengths  in mm (leg_lengths) 1x6 Matrix
   
 output:
 
-  desired_position (mm)   = [ X; Y; Z] 3x1 matrix
-  desired_orientation (deg)  = [rotX; rotY; totZ] 3x1 matrix
+    desired_position (mm)   = [ X; Y; Z] 3x1 matrix
+    desired_orientation (deg)  = [rotX; rotY; totZ] 3x1 matrix
 
 Code:
+
+
   % x = stewart_forward_kinematics(out.B, out.P, out.leg_lengths);
   % function [x] = stewart_forward_kinematics(B,P,leg_lengths)
   
