@@ -1,6 +1,6 @@
-# Hexapod_Forward_Kinematics
+# Hexapod Forward Kinematics
 
-# Forward Kinematics of the Stewart Platform (Hexapod)
+Forward Kinematics of the Stewart Platform (Hexapod)
 
 Input:
 
