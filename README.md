@@ -1,1 +1,1 @@
-# Hexapod Forward Kinematics
+# Hexapod Forward Kinematics (MATLAB)
